@@ -7,23 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D76C5CC224A6A82600E3CCC6 /* AppColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D76C5CC124A6A82600E3CCC6 /* AppColor.swift */; };
+		D76C5CC424A6A89400E3CCC6 /* UIAdaptiveColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D76C5CC324A6A89400E3CCC6 /* UIAdaptiveColor.swift */; };
 		D779F2CB24A6A5A20063D7B8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D779F2CA24A6A5A20063D7B8 /* AppDelegate.swift */; };
-		D779F2CD24A6A5A20063D7B8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D779F2CC24A6A5A20063D7B8 /* SceneDelegate.swift */; };
 		D779F2CF24A6A5A20063D7B8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D779F2CE24A6A5A20063D7B8 /* ViewController.swift */; };
 		D779F2D224A6A5A20063D7B8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D779F2D024A6A5A20063D7B8 /* Main.storyboard */; };
 		D779F2D424A6A5A30063D7B8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D779F2D324A6A5A30063D7B8 /* Assets.xcassets */; };
 		D779F2D724A6A5A30063D7B8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D779F2D524A6A5A30063D7B8 /* LaunchScreen.storyboard */; };
+		D7C1652924A7FD0200BFB933 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7C1652824A7FD0200BFB933 /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D76C5CC124A6A82600E3CCC6 /* AppColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppColor.swift; sourceTree = "<group>"; };
+		D76C5CC324A6A89400E3CCC6 /* UIAdaptiveColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIAdaptiveColor.swift; sourceTree = "<group>"; };
 		D779F2C724A6A5A20063D7B8 /* DarkMode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DarkMode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D779F2CA24A6A5A20063D7B8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D779F2CC24A6A5A20063D7B8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		D779F2CE24A6A5A20063D7B8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D779F2D124A6A5A20063D7B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D779F2D324A6A5A30063D7B8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D779F2D624A6A5A30063D7B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D779F2D824A6A5A30063D7B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7C1652824A7FD0200BFB933 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,12 +61,14 @@
 			isa = PBXGroup;
 			children = (
 				D779F2CA24A6A5A20063D7B8 /* AppDelegate.swift */,
-				D779F2CC24A6A5A20063D7B8 /* SceneDelegate.swift */,
 				D779F2CE24A6A5A20063D7B8 /* ViewController.swift */,
 				D779F2D024A6A5A20063D7B8 /* Main.storyboard */,
 				D779F2D324A6A5A30063D7B8 /* Assets.xcassets */,
 				D779F2D524A6A5A30063D7B8 /* LaunchScreen.storyboard */,
 				D779F2D824A6A5A30063D7B8 /* Info.plist */,
+				D76C5CC124A6A82600E3CCC6 /* AppColor.swift */,
+				D76C5CC324A6A89400E3CCC6 /* UIAdaptiveColor.swift */,
+				D7C1652824A7FD0200BFB933 /* SecondViewController.swift */,
 			);
 			path = DarkMode;
 			sourceTree = "<group>";
@@ -139,7 +145,9 @@
 			files = (
 				D779F2CF24A6A5A20063D7B8 /* ViewController.swift in Sources */,
 				D779F2CB24A6A5A20063D7B8 /* AppDelegate.swift in Sources */,
-				D779F2CD24A6A5A20063D7B8 /* SceneDelegate.swift in Sources */,
+				D76C5CC224A6A82600E3CCC6 /* AppColor.swift in Sources */,
+				D7C1652924A7FD0200BFB933 /* SecondViewController.swift in Sources */,
+				D76C5CC424A6A89400E3CCC6 /* UIAdaptiveColor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -216,7 +224,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -271,7 +279,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -289,6 +297,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 84MA3JMGLA;
 				INFOPLIST_FILE = DarkMode/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -308,6 +317,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 84MA3JMGLA;
 				INFOPLIST_FILE = DarkMode/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
