@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		86CED6F82536DB6900913D12 /* detectMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86CED6F72536DB6900913D12 /* detectMode.swift */; };
+		86CED6FB2536DC8000913D12 /* detectModeBlack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86CED6FA2536DC8000913D12 /* detectModeBlack.swift */; };
 		D76C5CC224A6A82600E3CCC6 /* AppColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D76C5CC124A6A82600E3CCC6 /* AppColor.swift */; };
 		D76C5CC424A6A89400E3CCC6 /* UIAdaptiveColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D76C5CC324A6A89400E3CCC6 /* UIAdaptiveColor.swift */; };
 		D779F2CB24A6A5A20063D7B8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D779F2CA24A6A5A20063D7B8 /* AppDelegate.swift */; };
@@ -18,6 +20,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		86CED6F72536DB6900913D12 /* detectMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = detectMode.swift; sourceTree = "<group>"; };
+		86CED6FA2536DC8000913D12 /* detectModeBlack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = detectModeBlack.swift; sourceTree = "<group>"; };
 		D76C5CC124A6A82600E3CCC6 /* AppColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppColor.swift; sourceTree = "<group>"; };
 		D76C5CC324A6A89400E3CCC6 /* UIAdaptiveColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIAdaptiveColor.swift; sourceTree = "<group>"; };
 		D779F2C724A6A5A20063D7B8 /* DarkMode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DarkMode.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -69,6 +73,8 @@
 				D76C5CC124A6A82600E3CCC6 /* AppColor.swift */,
 				D76C5CC324A6A89400E3CCC6 /* UIAdaptiveColor.swift */,
 				D7C1652824A7FD0200BFB933 /* SecondViewController.swift */,
+				86CED6F72536DB6900913D12 /* detectMode.swift */,
+				86CED6FA2536DC8000913D12 /* detectModeBlack.swift */,
 			);
 			path = DarkMode;
 			sourceTree = "<group>";
@@ -146,7 +152,9 @@
 				D779F2CF24A6A5A20063D7B8 /* ViewController.swift in Sources */,
 				D779F2CB24A6A5A20063D7B8 /* AppDelegate.swift in Sources */,
 				D76C5CC224A6A82600E3CCC6 /* AppColor.swift in Sources */,
+				86CED6F82536DB6900913D12 /* detectMode.swift in Sources */,
 				D7C1652924A7FD0200BFB933 /* SecondViewController.swift in Sources */,
+				86CED6FB2536DC8000913D12 /* detectModeBlack.swift in Sources */,
 				D76C5CC424A6A89400E3CCC6 /* UIAdaptiveColor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
